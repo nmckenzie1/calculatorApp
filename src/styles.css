@@ -1,0 +1,49 @@
+body {
+    padding: 0;
+    margin:0;
+    background: linear-gradient(to left, blue, red)
+}
+.output{
+    grid-column: span 4;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+.calcgrid {
+    display:grid;
+    justify-content: left;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(6,100px)
+}
+
+.calcgrid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    
+}
+.operand{
+    background-color: lightblue
+}
+.equals{
+    background-color: blue;
+}
+.acdel{
+    background-color: grey
+}
+.twospan{
+    grid-column: span 2;
+}
+.twospanac{
+    grid-column: span 2;
+    background-color: grey;
+}
