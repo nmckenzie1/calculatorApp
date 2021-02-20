@@ -22,7 +22,7 @@
   
   ## About
   
-  This app does basic computations and displays past computations of all users.
+  This app does basic computations and displays past computations of all users. This app was created using react.js and firebase. 
   
   ## Installation
   
