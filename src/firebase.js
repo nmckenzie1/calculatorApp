@@ -4,13 +4,13 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyBRBlgLt3WgQADVq7ah4jg8_Z2DWgFcnmw",
-  authDomain: "calcchallenge-b558b.firebaseapp.com",
-  projectId: "calcchallenge-b558b",
-  storageBucket: "calcchallenge-b558b.appspot.com",
-  messagingSenderId: "50732057822",
-  appId: "1:50732057822:web:c08d539603e2bdf3bbee4f",
-  measurementId: "G-SMSW63WLVP"
+  apiKey: "AIzaSyD-Gza4C3jxtcJ4FN_XG9hEC0Xstx33gbo",
+  authDomain: "calculator-efed9.firebaseapp.com",
+  projectId: "calculator-efed9",
+  storageBucket: "calculator-efed9.appspot.com",
+  messagingSenderId: "802293690286",
+  appId: "1:802293690286:web:5b1a950c62be5cc6e4e23f",
+  measurementId: "G-Y2VBBT21R3"
 };
   
 firebase.initializeApp(firebaseConfig);
