@@ -2,7 +2,10 @@
   display:grid;
   grid-template-columns: 50%  50%;
 }
-
+@media (max-width: 800px){
+  .calcbody{ display:grid;
+    grid-template-columns: 100%;
+}}
 
 .calccell {
   display: inline-block;
