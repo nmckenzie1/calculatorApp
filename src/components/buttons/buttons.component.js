@@ -8,7 +8,7 @@ class Buttons extends Component{
         return(
     <div className='calcgrid'>
        <div className= 'output'>
-           <Output output= {this.props.output}/>
+           <Output output= {this.props.output} problem={this.props.problem}/>
        </div>
         <button className= 'twospanac' value='AC' onClick={e => this.props.onClick(e.target.value)}>AC</button>
         <button className= 'acdel' value='DEL' onClick={e => this.props.onClick(e.target.value)}>DEL</button>

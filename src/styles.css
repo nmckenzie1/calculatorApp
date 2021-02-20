@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin:0;
-    background: linear-gradient(to left, blue, red)
+    background: linear-gradient(to left, lightblue, grey)
 }
 .output{
     grid-column: span 4;
@@ -17,11 +17,22 @@ body {
 
 .calcgrid {
     display:grid;
-    justify-content: left;
+    justify-content: center;
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(6,100px)
+}
+.resultsgrid {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    font-size: 2rem;
+    grid-template-rows: minmax(120px, auto) repeat(6,100px);
+    text-align: center;
+    
+
 }
 
 .calcgrid > button {
