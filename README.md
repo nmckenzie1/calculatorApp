@@ -1,6 +1,7 @@
 # CalculatorApp
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
-  
+  ![calcapp](https://user-images.githubusercontent.com/68027063/108604035-0bb76880-7371-11eb-8aa0-4b77e2a19a1b.png)
+  https://calculator-efed9.web.app/
   
   ## Table of Contents 
   * [About the Project](#about)
