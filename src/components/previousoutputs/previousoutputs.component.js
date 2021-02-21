@@ -24,10 +24,10 @@ function Previousoutputs() {
     )
 
 function Calculationmessage(props){
-    return (
+    return (<>
     <div>
-    <p> {props.problem} = {props.solution}</p>
-    </div>)
+    {props.problem} = {props.solution}
+    </div><br/></>)
 }
 
 
